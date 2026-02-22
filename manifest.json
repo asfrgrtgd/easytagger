@@ -1,0 +1,8 @@
+{
+  "id": "local-lm-tag-generator",
+  "name": "Local LM Tag Generator",
+  "version": "0.0.1",
+  "minAppVersion": "1.0.0",
+  "description": "Generate tags from an allowed list using LM Studio local server",
+  "author": "You"
+}

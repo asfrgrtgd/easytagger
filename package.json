@@ -1,0 +1,20 @@
+{
+  "name": "local-lm-tag-generator",
+  "version": "0.0.1",
+  "description": "Obsidian plugin: select tags from an allowed list via LM Studio",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc --noEmit --skipLibCheck && node esbuild.config.mjs production"
+  },
+  "author": "You",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.19.0",
+    "builtin-modules": "^4.0.0",
+    "esbuild": "^0.25.9",
+    "obsidian": "latest",
+    "tslib": "^2.8.1",
+    "typescript": "^5.9.2"
+  }
+}

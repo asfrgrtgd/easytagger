@@ -1,0 +1,122 @@
+.local-lm-tag-generator-view {
+  padding: var(--size-4-3);
+}
+
+.local-lm-tag-generator-view h4,
+.local-lm-tag-generator-view h5 {
+  margin: 0 0 var(--size-4-2) 0;
+}
+
+.local-lm-tag-generator-view p {
+  margin: 0 0 var(--size-4-3) 0;
+  color: var(--text-muted);
+}
+
+.local-lm-actions {
+  display: flex;
+  gap: var(--size-4-2);
+  margin: var(--size-4-3) 0;
+}
+
+.local-lm-result {
+  margin-top: var(--size-4-3);
+}
+
+.local-lm-meta {
+  display: grid;
+  gap: 2px;
+  margin: var(--size-4-2) 0 var(--size-4-3) 0;
+  font-size: var(--font-ui-smaller);
+  color: var(--text-muted);
+}
+
+.local-lm-group {
+  margin: 0 0 var(--size-4-3) 0;
+}
+
+.local-lm-chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.local-lm-chip {
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: var(--font-ui-smaller);
+  border: 1px solid var(--background-modifier-border);
+}
+
+.local-lm-chip-existing {
+  background: var(--background-primary-alt);
+}
+
+.local-lm-chip-added {
+  background: color-mix(in srgb, var(--color-green) 16%, transparent);
+}
+
+.local-lm-chip-new {
+  background: color-mix(in srgb, var(--color-orange) 16%, transparent);
+}
+
+.local-lm-suggestions {
+  display: grid;
+  gap: var(--size-4-2);
+}
+
+.local-lm-suggestion-row {
+  display: flex;
+  gap: var(--size-4-2);
+  align-items: flex-start;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--radius-s);
+  padding: var(--size-4-2);
+}
+
+.local-lm-suggestion-checkbox {
+  margin-top: 3px;
+}
+
+.local-lm-suggestion-body {
+  min-width: 0;
+  display: grid;
+  gap: 2px;
+}
+
+.local-lm-suggestion-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.local-lm-suggestion-head code {
+  font-size: var(--font-ui-small);
+}
+
+.local-lm-badge {
+  font-size: 11px;
+  line-height: 1;
+  padding: 2px 6px;
+  border-radius: 999px;
+  border: 1px solid var(--background-modifier-border);
+}
+
+.local-lm-badge-accept {
+  background: color-mix(in srgb, var(--color-green) 18%, transparent);
+}
+
+.local-lm-badge-review {
+  background: color-mix(in srgb, var(--color-orange) 18%, transparent);
+}
+
+.local-lm-badge-reject {
+  background: color-mix(in srgb, var(--color-red) 18%, transparent);
+}
+
+.local-lm-suggestion-reason,
+.local-lm-suggestion-review,
+.local-lm-suggestion-scores,
+.local-lm-muted {
+  color: var(--text-muted);
+  font-size: var(--font-ui-smaller);
+}
