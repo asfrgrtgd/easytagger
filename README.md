@@ -15,4 +15,4 @@
    - `承認式`: 新規候補を確認して選んで適用
    - `自動追加`: 新規候補を自動で適用
 4. `Run Tag generation` を押す
-5. （必要なら）`Auto append new tags to allowed list` を ON にして、新規採用タグを `_system/allowed-tags.md` に追記する
+5. （必要なら）`Auto append new tags to allowed list` を ON にして、新規採用タグを `templates/allowed-tags.md` に追記する

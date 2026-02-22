@@ -14,7 +14,7 @@ import {
  */
 const LMSTUDIO_BASE_URL = "http://192.168.10.105:1234";
 const LMSTUDIO_MODEL = "gpt-oss-swallow-20b-rl-v0.1";
-const TAG_LIST_PATH = "_system/allowed-tags.md";
+const TAG_LIST_PATH = "templates/allowed-tags.md";
 
 const MAX_GENERATED_TAGS = 5;
 const MIN_NEW_SUGGESTIONS = 2;
