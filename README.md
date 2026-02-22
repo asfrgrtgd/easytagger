@@ -1,4 +1,5 @@
 # Local LM Tag Generator
+これはobsidianの拡張です
 
 ## 最初のセットアップ
 1. `src/main.ts` を開く
